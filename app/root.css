@@ -4,8 +4,6 @@
 
 html,
 body {
-  /* @apply border-8; */
-
   @media (prefers-color-scheme: dark) {
     color-scheme: dark;
   }
