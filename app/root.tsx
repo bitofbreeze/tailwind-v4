@@ -15,6 +15,7 @@ export const links: LinksFunction = () => [
   {rel: 'stylesheet', href: cssUrl}
 ];
 // import './root.css';
+
 // End Issue 1
 
 export function Layout({ children }: { children: React.ReactNode }) {
