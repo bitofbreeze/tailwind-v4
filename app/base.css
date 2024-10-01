@@ -1,0 +1,16 @@
+@charset "UTF-8";
+@import "tailwindcss";
+
+@theme {
+	--color-a: red;
+}
+
+:root {
+    /* @apply bg-red-100; */
+}
+
+body {
+    /* Begin Issue 2: root.css imports base.css but this styling doesn't work in alpha.25 whereas it does work in alpha.15 with the same import */
+    @apply border-8;
+    /* End Issue 2 */
+}
